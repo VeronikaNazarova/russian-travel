@@ -1,0 +1,21 @@
+.small-container {
+  margin: 92px 148px 0 148px;
+}
+
+@media screen  and (max-width: 1024px) {
+  .small-container {
+      margin: 92px 48px 0 48px;
+  }
+}
+
+@media screen  and (max-width: 800px) {
+  .small-container {
+      margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen  and (min-width: 320px) and (max-width: 540px) {
+  .small-container {
+    margin-top: 64px;
+  }
+}
