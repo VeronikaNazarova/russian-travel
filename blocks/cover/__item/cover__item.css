@@ -1,4 +1,41 @@
 .cover__item {
-  position: absolute;
+  padding: 245px 16px;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 7;
+}
+.cover__item:hover {
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 8;
+}
+
+@media screen  and (max-width: 1024px) {
+  .cover__item {
+    padding: 195px 16px;
+  }
+}
+
+@media screen  and (max-width: 960px) {
+  .cover__item {
+    padding: 180px 16px;
+  }
+}
+
+@media screen  and (max-width: 768px) {
+  .cover__item {
+    padding: 115px 16px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px)  {
+  .cover__item {
+    padding: 33px 16px;
+  }
 }
